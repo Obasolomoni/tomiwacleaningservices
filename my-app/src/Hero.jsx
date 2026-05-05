@@ -54,7 +54,7 @@ export default function Hero() {
           alignItems: "center",
           background: "#f8f9fa",
           textAlign: "center",
-          backgroundImage: `url(${bg})`,
+          backgroundImage: `url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
