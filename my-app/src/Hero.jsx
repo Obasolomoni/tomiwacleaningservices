@@ -52,6 +52,7 @@ export default function Hero() {
           alignItems: "center",
           background: "#f8f9fa",
           textAlign: "center",
+          backgroundImage: url("/vite.svg"),
         }}
       >
         <h1>TOMIWA CLEANING SERVICES</h1>
