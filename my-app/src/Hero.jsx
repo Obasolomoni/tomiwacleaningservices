@@ -42,7 +42,7 @@ export default function Hero() {
   const closeQuote = () => setShowQuote(false);
 
 
-  const bg= "/vite.svg";
+  const bg = "/vite.svg";
   return (
     <section id="hero">
       <div
@@ -54,7 +54,10 @@ export default function Hero() {
           alignItems: "center",
           background: "#f8f9fa",
           textAlign: "center",
-          backgroundImage:`url(${bg})`,
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
         }}
       >
         <h1>TOMIWA CLEANING SERVICES</h1>
@@ -238,8 +241,8 @@ export default function Hero() {
                       {quoteData.service === "home"
                         ? "Home Cleaning"
                         : quoteData.service === "office"
-                        ? "Office Cleaning"
-                        : "Post Construction Cleaning"}
+                          ? "Office Cleaning"
+                          : "Post Construction Cleaning"}
                     </td>
                   </tr>
                   <tr>
