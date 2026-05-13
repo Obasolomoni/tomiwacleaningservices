@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/Obasolomoni/Tomiwa-services/issues"
   },
-  "homepage": "https://github.com/Obasolomoni/Tomiwa-services#readme"
+  "homepage": "https://github.com/Obasolomoni/Tomiwa-services#readme",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "vite": "^7.3.3"
+  }
 }
