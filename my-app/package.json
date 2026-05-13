@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Obasolomoni/Tomiwa-services#readme",
   "dependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "vite": "^7.3.3"
