@@ -1,22 +1,30 @@
-import React from 'react';
-import Navbar from './Navbar.jsx';
-import Hero from './Hero.jsx';
-import Services from './Services.jsx';
-import About from './About.jsx';
-import Testimonial from './Testimonial.jsx'
-import Footer from './Footer.jsx';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-export default function App() {
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
+import Home from "./pages/Home";
+import Cleaning from "./pages/Cleaning";
+import Food from "./pages/Food";
+import RealEstate from "./pages/RealEstate";
+import Media from "./pages/Media";
+import Contact from "./pages/Contact";
+
+function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Hero />
-      <Services />
-      <About />
-      <Testimonial />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cleaning" element={<Cleaning />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/real-estate" element={<RealEstate />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
+
+export default App;

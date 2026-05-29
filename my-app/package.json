@@ -22,9 +22,16 @@
   "homepage": "https://github.com/Obasolomoni/Tomiwa-services#readme",
   "dependencies": {
     "@vitejs/plugin-react": "^5.2.0",
+    "framer-motion": "^12.40.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-icons": "^5.6.0",
+    "react-router-dom": "^7.16.0",
     "vite": "^7.3.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
   }
 }
