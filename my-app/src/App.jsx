@@ -9,10 +9,12 @@ import Food from "./pages/Food";
 import RealEstate from "./pages/RealEstate";
 import Media from "./pages/Media";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
