@@ -100,9 +100,9 @@ function Home() {
               color: "#22c55e",
             },
             {
-              title: "Media",
+              title: "Fashion",
               desc: "Creative branding, media production and storytelling.",
-              link: "/media",
+              link: "/fashion",
               color: "#a855f7",
             },
           ].map((service, i) => (

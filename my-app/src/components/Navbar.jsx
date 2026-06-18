@@ -20,7 +20,8 @@ function Navbar() {
           <Link to="/cleaning" className="hover:text-gray-300 transition">Cleaning</Link>
           <Link to="/food" className="hover:text-gray-300 transition">Food</Link>
           <Link to="/real-estate" className="hover:text-gray-300 transition">Real Estate</Link>
-          <Link to="/media" className="hover:text-gray-300 transition">Media</Link>
+          <Link to="/products" className="hover:text-gray-300 transition">Products</Link>
+          <Link to="/fashion" className="hover:text-gray-300 transition">Fashion</Link>
           <Link to="/contact" className="hover:text-gray-300 transition">Contact</Link>
         </div>
 
@@ -50,7 +51,8 @@ function Navbar() {
               <Link to="/cleaning" onClick={() => setIsOpen(false)}>Cleaning</Link>
               <Link to="/food" onClick={() => setIsOpen(false)}>Food</Link>
               <Link to="/real-estate" onClick={() => setIsOpen(false)}>Real Estate</Link>
-              <Link to="/media" onClick={() => setIsOpen(false)}>Media</Link>
+              <Link to="/products" onClick={() => setIsOpen(false)}>Products</Link>
+              <Link to="/fashion" onClick={() => setIsOpen(false)}>Fashion</Link>
               <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
 
             </div>
